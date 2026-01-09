@@ -30,4 +30,6 @@ public abstract class Pet {
         this.name = name;
         this.birthDate = birthDate;
     }
+
+    public abstract String speak();
 }

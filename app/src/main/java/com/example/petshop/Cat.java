@@ -11,4 +11,9 @@ public class Cat extends Pet {
     public Cat(String name, Date birthDate) {
         super(name, birthDate);
     }
+
+    @Override
+    public String speak() {
+        return "meow";
+    }
 }
