@@ -27,6 +27,13 @@ public class MainActivity extends AppCompatActivity {
         Scorpion scorpion = new Scorpion("Scorponok");
 
         ArrayList<Pet> petList = new ArrayList<Pet>();
+        petList.add(cat);
+        petList.add(dog);
+        petList.add(scorpion);
+
+        ArrayList<Pettable> pettablePets = new ArrayList<Pettable>();
+        pettablePets.add(cat);
+        pettablePets.add(dog);
 
         // Can store both Cat and Dog objects
         // since they both inherit from Pet
