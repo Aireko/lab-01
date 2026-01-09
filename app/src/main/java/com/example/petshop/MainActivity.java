@@ -11,15 +11,6 @@ import androidx.core.view.WindowInsetsCompat;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-    Cat cat = new Cat("Lucy");
-    Dog dog = new Dog("Snoopy");
-    ArrayList<Pet> petList = new ArrayList<Pet>();
-
-    // Can store both Cat and Dog objects
-    // since they both inherit from Pet
-    petList.add(cat);
-    petList.add(dog);
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,5 +21,14 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        Cat cat = new Cat("Lucy");
+        Dog dog = new Dog("Snoopy");
+        ArrayList<Pet> petList = new ArrayList<Pet>();
+
+        // Can store both Cat and Dog objects
+        // since they both inherit from Pet
+        petList.add(cat);
+        petList.add(dog);
     }
 }
