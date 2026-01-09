@@ -2,12 +2,13 @@
 
 ## Student Details
 
-- **Full Name:** `<Enter name>`
-- **CCID:** `<Enter ccid>`
+- **Full Name:** `Phil Jiang`
+- **CCID:** `phil2`
 
 ## References and Resources
 
 List any resources used here, or simply put `N/A` if not applicable.
+lab-description.md
 
 ## Verbal Collaboration
 
