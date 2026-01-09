@@ -1,5 +1,6 @@
-import java.util.Date;
+package com.example.petshop;
 
+import java.util.Date;
 public class Pet {
     private String name;
     private Date birthDate;
