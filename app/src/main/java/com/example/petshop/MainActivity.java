@@ -9,7 +9,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
-    Pet pet = new pet("");
+    Cat cat = new Cat("Lucy");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

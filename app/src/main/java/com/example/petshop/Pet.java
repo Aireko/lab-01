@@ -1,7 +1,10 @@
 package com.example.petshop;
 
 import java.util.Date;
-public class Pet {
+public abstract class Pet {
+    private String name;
+    private Date birthDate;
+
     public String getName() {
         return name;
     }
@@ -18,9 +21,6 @@ public class Pet {
         this.birthDate = birthDate;
     }
 
-    private String name;
-    private Date birthDate;
-
     public Pet(String name) {
         this.name = name;
         this.birthDate = new Date(); // this will set birthdate to current date
@@ -28,6 +28,6 @@ public class Pet {
 
     public Pet(String name, Date birthDate) {
         this.name = name;
-        this.birhtDate = birthDate;
+        this.birthDate = birthDate;
     }
 }
